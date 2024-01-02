@@ -1,0 +1,64 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    pdftitle={kynan justis resume 2023},
+    % pdfpagemode=FullScreen,
+    }
+\usepackage{multicol}
+
+% Make sure there is some spacing after the page body before the footer.
+\addtolength{\skip\footins}{20pt}
+
+% Pull the start of the title section closer the to page header. Pull the page body closer to the title as well.
+\title{\vspace{-10mm}Kynan F. Justis\vspace{2mm}\\{\normalsize Resume | 2023\vspace{-4mm}\\Contact: kfjustis@gmail.com, {\href{https://www.linkedin.com/in/kynan-justis}{LinkedIn}}}\vspace{-20mm}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Professional Experience}
+\subsection*{Roles{\footnote[1]{Used languages and frameworks denoted by parentheses in each section.}}}
+
+\subsubsection*{Software Engineer III (2023 - Current)\\3D Simulation Team}
+
+\subsubsection*{Software Engineer II (2020 - 2023)\\3D Simulation Team}
+
+\subsubsection*{Software Engineer I (2018 - 2020)\\Data Analytics Team}
+- Designed and implemented a proprietary data extraction plugin to perform real-time conversion from binary simulation protocols to JSON and text formats. (C++11)\\
+- Built user-facing visualization dashboards to model live and post-run simulation data using Elasticsearch, Logstash, and Kibana. (ELK Stack)\\
+- Built custom plugins for Logstash to facilitate ingestion-time data transformations. (Ruby)
+
+\subsubsection*{Undergraduate Researh Assistant (2017 - 2018)\\University of Missouri - Center for Geospatial Intelligence}
+- Designed and built a data mining/web-scraping pipeline for gathering and ingesting open source streetmap data.\\
+- Preprocessed and batch-analyzed image data for a machine learning feature-based indexing system.\\
+- Designed and implemented a web-based front end to access and visualize project data using Flask, JavaScript, and Postgres.
+
+\section*{Education}
+University of Missouri - Columbia | 2014-2018\\
+Bachelor's of Science, Computer Science\\
+Minor in Mathematics\\
+GPA: 3.707; Graduated with honors
+
+\section*{Personal Projects}
+
+\subsection*{Twitter Behavior Analyzer}
+
+About Twitter Behavior Analyzer...
+
+\subsection*{Bevy Jam 4}
+
+About Bevy Jam 4...
+
+\end{document}

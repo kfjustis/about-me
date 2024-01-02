@@ -1,0 +1,4 @@
+# Ignore all of the cv output except the tex file and pdf.
+/cv/*
+!/cv/*.pdf
+!/cv/*.tex
